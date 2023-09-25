@@ -85,9 +85,9 @@ public void addListaSyntagwn(Syntagh s) {
 public void addAsfalismeno(String fname, String lname, String AMKA) {
 	Asfalismenos a = findAsfaslismeno(AMKA);
 	if(a != null)
-		System.out.println("O ασφαλισμένος είναι ήδη καταχωρημένος στο σύστημα.");
+		System.out.println("O Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ‚ ΞµΞ―Ξ½Ξ±ΞΉ Ξ®Ξ΄Ξ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏΟ‚ ΟƒΟ„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ±.");
 	else if (fname.isEmpty() || lname.isEmpty() || fname == null || lname == null)
-		System.out.println("Πρέπει να εισάγετε όνομα και επίθετο ασφαλισμένου.");
+		System.out.println("Ξ ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± ΞµΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ ΟΞ½ΞΏΞΌΞ± ΞΊΞ±ΞΉ ΞµΟ€Ξ―ΞΈΞµΟ„ΞΏ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ….");
 	else {
 		Asfalismenos b = new Asfalismenos(AMKA, fname, lname);
 		this.listaAsfalismenwn.add(b);}
@@ -95,9 +95,9 @@ public void addAsfalismeno(String fname, String lname, String AMKA) {
 public void addFarmako(int code, String name, float price) {
 	Farmako a = findFarmakoByCode(code);
 	if(a != null)
-		System.out.println("Το φάρμακο είναι ήδη καταχωρημένο στο σύστημα.");
+		System.out.println("Ξ¤ΞΏ Ο†Ξ¬ΟΞΌΞ±ΞΊΞΏ ΞµΞ―Ξ½Ξ±ΞΉ Ξ®Ξ΄Ξ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏ ΟƒΟ„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ±.");
 	else if(name.isEmpty() || name == null)
-		System.out.println("Πρέπει να εισάγετε όνομα φαρμάκου.");
+		System.out.println("Ξ ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± ΞµΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ ΟΞ½ΞΏΞΌΞ± Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ….");
 	else {
 		Farmako b = new Farmako(code, name, price);
 		this.listaFarmakwn.add(b);
@@ -106,9 +106,9 @@ public void addFarmako(int code, String name, float price) {
 public void addIatro(int aade, String fname, String lname, String specialty) {
 	Iatros a = findIatroByAade(aade);
 	if(a != null)
-		System.out.println("Ο ιατρός είναι ήδη καταχωρημένος στο σύστημα");
+		System.out.println("Ξ ΞΉΞ±Ο„ΟΟΟ‚ ΞµΞ―Ξ½Ξ±ΞΉ Ξ®Ξ΄Ξ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏΟ‚ ΟƒΟ„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ±");
 	else if (fname.isEmpty() || lname.isEmpty() || fname == null || lname == null)
-		System.out.println("Πρέπει να εισάγετε όνομα και επίθετο ιατρού.");
+		System.out.println("Ξ ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± ΞµΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ ΟΞ½ΞΏΞΌΞ± ΞΊΞ±ΞΉ ΞµΟ€Ξ―ΞΈΞµΟ„ΞΏ ΞΉΞ±Ο„ΟΞΏΟ.");
 	else{
 		Iatros b = new Iatros(aade, fname, lname, specialty);
 		this.listaIatrwn.add(b);
@@ -135,22 +135,22 @@ public void addSyntagh(String AMKA, String fname, String lname, String[] onomata
 				Date expDate = cal.getTime();
 				Syntagh s = new Syntagh(a, iatr, farmaka, preDate, execDate, expDate, daysOfExec);
 				this.listaSyntagwn.add(s);
-				s.setCode(listaSyntagwn.indexOf(s));//Θέτω κωδικό συνταγής τη θέση που έχει στο συνολικό πίνακα συνταγών
+				s.setCode(listaSyntagwn.indexOf(s));//ΞΞ­Ο„Ο‰ ΞΊΟ‰Ξ΄ΞΉΞΊΟ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚ Ο„Ξ· ΞΈΞ­ΟƒΞ· Ο€ΞΏΟ… Ξ­Ο‡ΞµΞΉ ΟƒΟ„ΞΏ ΟƒΟ…Ξ½ΞΏΞ»ΞΉΞΊΟ Ο€Ξ―Ξ½Ξ±ΞΊΞ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½
 				s.setCost();
 				a.addSyntagesAsfalismenou(s);	
 				iatr.addSyntagesIatrou(s);
 				for(int i=0; i<s.getFarmakaSyntaghs().size(); i++) {
 					Farmako f = s.getFarmakaSyntaghs().get(i);
-					f.addSyntagesFarmakou(s); 		//ενημερώνω τώρα της συνταγές που σχετίζονται τα φάρμακα, αφού εχω δημιουργήσει τη συνταγή
+					f.addSyntagesFarmakou(s); 		//ΞµΞ½Ξ·ΞΌΞµΟΟΞ½Ο‰ Ο„ΟΟΞ± Ο„Ξ·Ο‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚ Ο€ΞΏΟ… ΟƒΟ‡ΞµΟ„Ξ―Ξ¶ΞΏΞ½Ο„Ξ±ΞΉ Ο„Ξ± Ο†Ξ¬ΟΞΌΞ±ΞΊΞ±, Ξ±Ο†ΞΏΟ ΞµΟ‡Ο‰ Ξ΄Ξ·ΞΌΞΉΞΏΟ…ΟΞ³Ξ®ΟƒΞµΞΉ Ο„Ξ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®
 				}
 			}else
-				System.out.println("'Ενα ή περισσότερα από τα φάρμακα δεν είναι καταχωρημένα.");
+				System.out.println("'Ξ•Ξ½Ξ± Ξ® Ο€ΞµΟΞΉΟƒΟƒΟΟ„ΞµΟΞ± Ξ±Ο€Ο Ο„Ξ± Ο†Ξ¬ΟΞΌΞ±ΞΊΞ± Ξ΄ΞµΞ½ ΞµΞ―Ξ½Ξ±ΞΉ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½Ξ±.");
 
 		}else
-			System.out.println("Ο ιατρός δεν είναι καταχωρημένος");
+			System.out.println("Ξ ΞΉΞ±Ο„ΟΟΟ‚ Ξ΄ΞµΞ½ ΞµΞ―Ξ½Ξ±ΞΉ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏΟ‚");
 
 	}else
-		System.out.println("Ο ασφαλισμένος δεν είναι καταχωρημένος");
+		System.out.println("Ξ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ‚ Ξ΄ΞµΞ½ ΞµΞ―Ξ½Ξ±ΞΉ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏΟ‚");
 	
 }
 public Asfalismenos findAsfaslismeno(String AM) {
@@ -165,7 +165,7 @@ public Asfalismenos findAsfaslismeno(String AM) {
 public void deleteAsfalismeno(String AM) {
 	Asfalismenos a = findAsfaslismeno(AM);
 	if (a == null)
-		System.out.println("Ο ασφαλισμένος με ΑΜΚΑ:"+" "+AM+" "+"δεν υπάρχει.");
+		System.out.println("Ξ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ‚ ΞΌΞµ Ξ‘ΞΞΞ‘:"+" "+AM+" "+"Ξ΄ΞµΞ½ Ο…Ο€Ξ¬ΟΟ‡ΞµΞΉ.");
 	else {
 		for (int i = 0; i < a.getSyntagesAsfalismenou().size(); i++) {
 			Syntagh s = a.getSyntagesAsfalismenou().get(i);
@@ -177,7 +177,7 @@ public void deleteAsfalismeno(String AM) {
 				listaSyntagwn.remove(s);
 				listaAsfalismenwn.remove(a);	
 		}
-		System.out.println("Ο ασφαλισμένος και οι συνταγές του διεγράφησαν.");
+		System.out.println("Ξ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ‚ ΞΊΞ±ΞΉ ΞΏΞΉ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚ Ο„ΞΏΟ… Ξ΄ΞΉΞµΞ³ΟΞ¬Ο†Ξ·ΟƒΞ±Ξ½.");
 		}
 }
 	
@@ -220,7 +220,7 @@ public void printAsfalismenous() {
 			System.out.println(a.getFullName()+" "+a.getAMKA());
 		}
 	}else
-		System.out.println("Δεν υπαρχουν καταχωρημένοι ασφαλισμένοι");
+		System.out.println("Ξ”ΞµΞ½ Ο…Ο€Ξ±ΟΟ‡ΞΏΟ…Ξ½ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏΞΉ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΞΉ");
 }
 public void printIatrous() {
 	if(listaIatrwn.size() > 0) {
@@ -229,7 +229,7 @@ public void printIatrous() {
 			System.out.println(a.getStoixeiaIatrou());
 		}
 	}else
-		System.out.println("Δεν υπαρχουν καταχωρημένοι ιατροί");
+		System.out.println("Ξ”ΞµΞ½ Ο…Ο€Ξ±ΟΟ‡ΞΏΟ…Ξ½ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞΏΞΉ ΞΉΞ±Ο„ΟΞΏΞ―");
 
 }
 public void printFarmaka() {
@@ -239,31 +239,31 @@ public void printFarmaka() {
 			System.out.println(a.getCode()+" "+a.getName()+" "+a.getPrice());
 		}
 	}else
-		System.out.println("Δεν υπαρχουν καταχωρημένα φάρμακα");
+		System.out.println("Ξ”ΞµΞ½ Ο…Ο€Ξ±ΟΟ‡ΞΏΟ…Ξ½ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½Ξ± Ο†Ξ¬ΟΞΌΞ±ΞΊΞ±");
 
 }
 public void printSyntages() {
 	if(listaSyntagwn.size() > 0) {
-		System.out.println("Με σειρά εμφάνισης:");
-		System.out.println("Κωδικός συνταγής, ΑΜΚΑ ασθενή, ΑΑΔΕ ιατρού, κόστος, ημερομηνία συνταγογράφησης, έναρξη εκτέλεσης, ημερομηνία ληξης, φάρμακα συνταγής.");
+		System.out.println("ΞΞµ ΟƒΞµΞΉΟΞ¬ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚:");
+		System.out.println("ΞΟ‰Ξ΄ΞΉΞΊΟΟ‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚, Ξ‘ΞΞΞ‘ Ξ±ΟƒΞΈΞµΞ½Ξ®, Ξ‘Ξ‘Ξ”Ξ• ΞΉΞ±Ο„ΟΞΏΟ, ΞΊΟΟƒΟ„ΞΏΟ‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΞΏΞ³ΟΞ¬Ο†Ξ·ΟƒΞ·Ο‚, Ξ­Ξ½Ξ±ΟΞΎΞ· ΞµΞΊΟ„Ξ­Ξ»ΞµΟƒΞ·Ο‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ»Ξ·ΞΎΞ·Ο‚, Ο†Ξ¬ΟΞΌΞ±ΞΊΞ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚.");
 		for (int i=0; i<listaSyntagwn.size(); i++) {
 			Syntagh s = listaSyntagwn.get(i);
 			System.out.print(s.getStoixeiaSyntaghs());
 			System.out.println(Arrays.toString( s.getKwdikousFarmakwnSyntaghs(s)));
 		}
 	}else
-		System.out.println("Δεν υπαρχουν καταχωρημένες συνταγές");
+		System.out.println("Ξ”ΞµΞ½ Ο…Ο€Ξ±ΟΟ‡ΞΏΟ…Ξ½ ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½ΞµΟ‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚");
 
 }
 public void findAndPrintSyntaghByFarmakoCode(int code){
 	Farmako f = this.findFarmakoByCode(code);
 	if (f != null) {
 		if (f.getSyntagesFarmakou().isEmpty())
-			System.out.println("Το φάρμακο"+f.getName()+"δεν έχει συνταγογραφηθεί για κάποια συνταγή.");
+			System.out.println("Ξ¤ΞΏ Ο†Ξ¬ΟΞΌΞ±ΞΊΞΏ"+f.getName()+"Ξ΄ΞµΞ½ Ξ­Ο‡ΞµΞΉ ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΞΏΞ³ΟΞ±Ο†Ξ·ΞΈΞµΞ― Ξ³ΞΉΞ± ΞΊΞ¬Ο€ΞΏΞΉΞ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®.");
 		else {
-			System.out.println("Το φάρμακο "+f.getName()+" συνταγογραφήθηκε για τις εξής συνταγές:");
-			System.out.println("Με σειρά εμφάνισης:");
-			System.out.println("Κωδικός συνταγής, ΑΜΚΑ ασθενή, ΑΑΔΕ ιατρού, κόστος, ημερομηνία συνταγογράφησης, έναρξη εκτέλεσης, ημερομηνία ληξης, φάρμακα συνταγής.");
+			System.out.println("Ξ¤ΞΏ Ο†Ξ¬ΟΞΌΞ±ΞΊΞΏ "+f.getName()+" ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΞΏΞ³ΟΞ±Ο†Ξ®ΞΈΞ·ΞΊΞµ Ξ³ΞΉΞ± Ο„ΞΉΟ‚ ΞµΞΎΞ®Ο‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚:");
+			System.out.println("ΞΞµ ΟƒΞµΞΉΟΞ¬ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚:");
+			System.out.println("ΞΟ‰Ξ΄ΞΉΞΊΟΟ‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚, Ξ‘ΞΞΞ‘ Ξ±ΟƒΞΈΞµΞ½Ξ®, Ξ‘Ξ‘Ξ”Ξ• ΞΉΞ±Ο„ΟΞΏΟ, ΞΊΟΟƒΟ„ΞΏΟ‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΞΏΞ³ΟΞ¬Ο†Ξ·ΟƒΞ·Ο‚, Ξ­Ξ½Ξ±ΟΞΎΞ· ΞµΞΊΟ„Ξ­Ξ»ΞµΟƒΞ·Ο‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ»Ξ·ΞΎΞ·Ο‚, Ο†Ξ¬ΟΞΌΞ±ΞΊΞ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚.");
 			for(int i=0; i<f.getSyntagesFarmakou().size(); i++) {
 				Syntagh s = f.getSyntagesFarmakou().get(i);
 				System.out.print(s.getStoixeiaSyntaghs());
@@ -271,17 +271,17 @@ public void findAndPrintSyntaghByFarmakoCode(int code){
 			}
 		}
 	}else
-		System.out.println("Άκυρος κωδικός");		
+		System.out.println("β€™ΞΊΟ…ΟΞΏΟ‚ ΞΊΟ‰Ξ΄ΞΉΞΊΟΟ‚");		
 }
 public void findAndPrintSyntaghByAsfalismeno(String AMKA) {
 	Asfalismenos a = this.findAsfaslismeno(AMKA);	
 	if(a != null) {
 		if (a.getSyntagesAsfalismenou().isEmpty())
-			System.out.println("Ο ασφαλισμένος "+a.getFullName()+" δεν έχει συνταγές στο όνομα του.");
+			System.out.println("Ξ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ‚ "+a.getFullName()+" Ξ΄ΞµΞ½ Ξ­Ο‡ΞµΞΉ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚ ΟƒΟ„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ….");
 		else {
-			System.out.println("Ο ασφαλισμένος "+a.getFullName()+" σχετίζεται με τις εξής συνταγές:");
-			System.out.println("Με σειρά εμφάνισης:");
-			System.out.println("Κωδικός συνταγής, ΑΜΚΑ ασθενή, ΑΑΔΕ ιατρού, κόστος, ημερομηνία συνταγογράφησης, έναρξη εκτέλεσης, ημερομηνία ληξης, φάρμακα συνταγής.");
+			System.out.println("Ξ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ‚ "+a.getFullName()+" ΟƒΟ‡ΞµΟ„Ξ―Ξ¶ΞµΟ„Ξ±ΞΉ ΞΌΞµ Ο„ΞΉΟ‚ ΞµΞΎΞ®Ο‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚:");
+			System.out.println("ΞΞµ ΟƒΞµΞΉΟΞ¬ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚:");
+			System.out.println("ΞΟ‰Ξ΄ΞΉΞΊΟΟ‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚, Ξ‘ΞΞΞ‘ Ξ±ΟƒΞΈΞµΞ½Ξ®, Ξ‘Ξ‘Ξ”Ξ• ΞΉΞ±Ο„ΟΞΏΟ, ΞΊΟΟƒΟ„ΞΏΟ‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΞΏΞ³ΟΞ¬Ο†Ξ·ΟƒΞ·Ο‚, Ξ­Ξ½Ξ±ΟΞΎΞ· ΞµΞΊΟ„Ξ­Ξ»ΞµΟƒΞ·Ο‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ»Ξ·ΞΎΞ·Ο‚, Ο†Ξ¬ΟΞΌΞ±ΞΊΞ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚.");
 			for(int i=0; i<a.getSyntagesAsfalismenou().size(); i++) {
 				Syntagh s = a.getSyntagesAsfalismenou().get(i);
 				System.out.print(s.getStoixeiaSyntaghs());
@@ -290,17 +290,17 @@ public void findAndPrintSyntaghByAsfalismeno(String AMKA) {
 		}
 	}
 	else
-		System.out.println("Άκυρο AMKA");
+		System.out.println("β€™ΞΊΟ…ΟΞΏ AMKA");
 }
 public void findAndPrintSyntaghByIatro(int AADE) {
 	Iatros iatr = this.findIatroByAade(AADE);
 	if(iatr != null) {
 		if(iatr.getSyntagesIatrou().isEmpty())
-			System.out.println("Ο ιατρός "+iatr.getFirstName()+" "+iatr.getLastName()+" δεν έχει συνταγές στο όνομα του.");
+			System.out.println("Ξ ΞΉΞ±Ο„ΟΟΟ‚ "+iatr.getFirstName()+" "+iatr.getLastName()+" Ξ΄ΞµΞ½ Ξ­Ο‡ΞµΞΉ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚ ΟƒΟ„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ….");
 		else {
-			System.out.println("Ο ιατρός σχετίζεται με τις εξής συνταγές:");
-			System.out.println("Με σειρά εμφάνισης:");
-			System.out.println("Κωδικός συνταγής, ΑΜΚΑ ασθενή, ΑΑΔΕ ιατρού, κόστος, ημερομηνία συνταγογράφησης, έναρξη εκτέλεσης, ημερομηνία ληξης, φάρμακα συνταγής.");
+			System.out.println("Ξ ΞΉΞ±Ο„ΟΟΟ‚ ΟƒΟ‡ΞµΟ„Ξ―Ξ¶ΞµΟ„Ξ±ΞΉ ΞΌΞµ Ο„ΞΉΟ‚ ΞµΞΎΞ®Ο‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ­Ο‚:");
+			System.out.println("ΞΞµ ΟƒΞµΞΉΟΞ¬ ΞµΞΌΟ†Ξ¬Ξ½ΞΉΟƒΞ·Ο‚:");
+			System.out.println("ΞΟ‰Ξ΄ΞΉΞΊΟΟ‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚, Ξ‘ΞΞΞ‘ Ξ±ΟƒΞΈΞµΞ½Ξ®, Ξ‘Ξ‘Ξ”Ξ• ΞΉΞ±Ο„ΟΞΏΟ, ΞΊΟΟƒΟ„ΞΏΟ‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΞΏΞ³ΟΞ¬Ο†Ξ·ΟƒΞ·Ο‚, Ξ­Ξ½Ξ±ΟΞΎΞ· ΞµΞΊΟ„Ξ­Ξ»ΞµΟƒΞ·Ο‚, Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ»Ξ·ΞΎΞ·Ο‚, Ο†Ξ¬ΟΞΌΞ±ΞΊΞ± ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚.");
 			for(int i=0; i<iatr.getSyntagesIatrou().size(); i++) {
 				Syntagh s = iatr.getSyntagesIatrou().get(i);
 				System.out.print(s.getStoixeiaSyntaghs());
@@ -308,17 +308,17 @@ public void findAndPrintSyntaghByIatro(int AADE) {
 		}
 	}
 	else
-		System.out.println("Άκυρο ΑΑΔΕ");
+		System.out.println("β€™ΞΊΟ…ΟΞΏ Ξ‘Ξ‘Ξ”Ξ•");
 
 }
 public void findAndPrintSyntaghBetweenDates(Date d1, Date d2) {
 	int ctr = 0;
 	if (d1==null || d2==null) {
-		System.out.println("Μη έγκυρες ημερομηνίες");
+		System.out.println("ΞΞ· Ξ­Ξ³ΞΊΟ…ΟΞµΟ‚ Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―ΞµΟ‚");
 		return;
 	}
 	else if(d1.after(d2)) {
-		System.out.println("Μη έγκυρες ημερομηνίες. Η ημερομηνία έναρξης της αναζήτησης πρέπει να είναι πριν το πέρας της αναζήτησης.");
+		System.out.println("ΞΞ· Ξ­Ξ³ΞΊΟ…ΟΞµΟ‚ Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―ΞµΟ‚. Ξ— Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ­Ξ½Ξ±ΟΞΎΞ·Ο‚ Ο„Ξ·Ο‚ Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚ Ο€ΟΞ­Ο€ΞµΞΉ Ξ½Ξ± ΞµΞ―Ξ½Ξ±ΞΉ Ο€ΟΞΉΞ½ Ο„ΞΏ Ο€Ξ­ΟΞ±Ο‚ Ο„Ξ·Ο‚ Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚.");
 		return;
 	}
 	else if(d1.equals(d2)) {
@@ -349,7 +349,7 @@ public void findAndPrintSyntaghBetweenDates(Date d1, Date d2) {
 		}
 	}
 if (ctr == 0)
-	System.out.println("Δεν αντιστοιχεί κάτι για αυτές τις ημερομηνίες");
+	System.out.println("Ξ”ΞµΞ½ Ξ±Ξ½Ο„ΞΉΟƒΟ„ΞΏΞΉΟ‡ΞµΞ― ΞΊΞ¬Ο„ΞΉ Ξ³ΞΉΞ± Ξ±Ο…Ο„Ξ­Ο‚ Ο„ΞΉΟ‚ Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―ΞµΟ‚");
 }
 
 }
