@@ -13,32 +13,32 @@ public class systemConsole {
 public static void main(String[] args) {
 	PrescriptionSystem pre = new PrescriptionSystem("ESY", "www.esy.gr");
 	
-	/***************ΑΡΧΙΚΟΠΟΙΗΣΗΣ ΣΥΣΤΗΜΑΤΟΣ*******************************/
-	pre.addAsfalismeno("ΓΕΩΡΓΙΑ", "ΦΡΑΓΚΙΣΚΑΤΟΥ", "1965654655");
-	pre.addAsfalismeno("ΒΑΣΙΛΙΚΗ", "ΝΙΚΗΤΟΠΟΥΛΟΥ", "1974020145");
-	pre.addAsfalismeno("ΜΑΡΙΑ", "ΑΝΔΡΙΟΠΟΥΛΟΥ", "1982014567");
-	pre.addAsfalismeno("ΔΙΟΝΥΣΙΑ", "ΠΑΝΑΓΑΚΗ", "1978030240");
-	pre.addAsfalismeno("ΕΥΤΕΡΠΗ", "ΚΥΡΜΑΝΙΔΟΥ", "2017335604");
-	pre.addAsfalismeno("ΒΙΚΤΩΡΙΑ", "ΤΖΟΥΡΑ", "1976059123");
-	pre.addAsfalismeno("ΦΡΑΤΖΕΣΚΑ", "ΝΤΟΥΡΟΥ", "1994328235");
-	pre.addAsfalismeno("ΕΛΕΝΗ", "ΤΣΑΚΑΛΙΔΟΥ", "1999378431");
-	pre.addAsfalismeno("ΚΩΝΣΤΑΝΤΙΝΑ", "ΑΓΓΕΛΟΠΟΥΛΟΥ", "2013369307");
-	pre.addAsfalismeno("ΕΛΕΝΗ", "ΜΟΥΖΟΠΟΥΛΟΥ", "1973427485");
-	pre.addAsfalismeno("ΑΝΤΙΟΠΗ", "ΓΡΑΒΑΝΗ", "2015360809");
-	pre.addAsfalismeno("ΘΕΟΔΩΡΑ", "ΘΕΟΔΩΡΟΠΟΥΛΟΥ", "2002388680");
+	/***************Ξ‘Ξ΅Ξ§Ξ™ΞΞΞ ΞΞ™Ξ—Ξ£Ξ—Ξ£ Ξ£Ξ¥Ξ£Ξ¤Ξ—ΞΞ‘Ξ¤ΞΞ£*******************************/
+	pre.addAsfalismeno("Ξ“Ξ•Ξ©Ξ΅Ξ“Ξ™Ξ‘", "Ξ¦Ξ΅Ξ‘Ξ“ΞΞ™Ξ£ΞΞ‘Ξ¤ΞΞ¥", "1965654655");
+	pre.addAsfalismeno("Ξ’Ξ‘Ξ£Ξ™Ξ›Ξ™ΞΞ—", "ΞΞ™ΞΞ—Ξ¤ΞΞ ΞΞ¥Ξ›ΞΞ¥", "1974020145");
+	pre.addAsfalismeno("ΞΞ‘Ξ΅Ξ™Ξ‘", "Ξ‘ΞΞ”Ξ΅Ξ™ΞΞ ΞΞ¥Ξ›ΞΞ¥", "1982014567");
+	pre.addAsfalismeno("Ξ”Ξ™ΞΞΞ¥Ξ£Ξ™Ξ‘", "Ξ Ξ‘ΞΞ‘Ξ“Ξ‘ΞΞ—", "1978030240");
+	pre.addAsfalismeno("Ξ•Ξ¥Ξ¤Ξ•Ξ΅Ξ Ξ—", "ΞΞ¥Ξ΅ΞΞ‘ΞΞ™Ξ”ΞΞ¥", "2017335604");
+	pre.addAsfalismeno("Ξ’Ξ™ΞΞ¤Ξ©Ξ΅Ξ™Ξ‘", "Ξ¤Ξ–ΞΞ¥Ξ΅Ξ‘", "1976059123");
+	pre.addAsfalismeno("Ξ¦Ξ΅Ξ‘Ξ¤Ξ–Ξ•Ξ£ΞΞ‘", "ΞΞ¤ΞΞ¥Ξ΅ΞΞ¥", "1994328235");
+	pre.addAsfalismeno("Ξ•Ξ›Ξ•ΞΞ—", "Ξ¤Ξ£Ξ‘ΞΞ‘Ξ›Ξ™Ξ”ΞΞ¥", "1999378431");
+	pre.addAsfalismeno("ΞΞ©ΞΞ£Ξ¤Ξ‘ΞΞ¤Ξ™ΞΞ‘", "Ξ‘Ξ“Ξ“Ξ•Ξ›ΞΞ ΞΞ¥Ξ›ΞΞ¥", "2013369307");
+	pre.addAsfalismeno("Ξ•Ξ›Ξ•ΞΞ—", "ΞΞΞ¥Ξ–ΞΞ ΞΞ¥Ξ›ΞΞ¥", "1973427485");
+	pre.addAsfalismeno("Ξ‘ΞΞ¤Ξ™ΞΞ Ξ—", "Ξ“Ξ΅Ξ‘Ξ’Ξ‘ΞΞ—", "2015360809");
+	pre.addAsfalismeno("ΞΞ•ΞΞ”Ξ©Ξ΅Ξ‘", "ΞΞ•ΞΞ”Ξ©Ξ΅ΞΞ ΞΞ¥Ξ›ΞΞ¥", "2002388680");
 
-	pre.addIatro(7718, "ΔΗΜΟΣΘΕΝΗΣ ΦΑΙΔΩΝ", "ΣΑΡΑΚΗΝΟΣ", "ΠΑΘΟΛΟΓΟΣ");
-	pre.addIatro(3644, "ΑΙΚΑΤΕΡΙΝΗ", "ΤΣΕΛΛΟΥ", "ΟΡΘΟΠΕΔΙΚΟΣ");
-	pre.addIatro(8391, "ΤΖΑΝΗΣ", "ΦΩΤΑΚΗΣ", "ΟΡΘΟΠΕΔΙΚΟΣ");
-	pre.addIatro(9456, "ΓΕΩΡΓΙΟΣ", "ΧΑΖΛΗΣ", "ΝΕΦΡΟΛΟΓΟΣ");
-	pre.addIatro(2193, "ΙΑΣΩΝ", "ΧΡΥΣΟΜΑΛΛΗΣ", "ΚΑΡΔΙΟΛΟΓΟΣ");
-	pre.addIatro(3336, "ΚΩΝΣΤΑΝΤΙΝΟΣ", "ΑΜΠΑΤΖΙΔΗΣ", "ΚΑΡΔΙΟΛΟΓΟΣ");
-	pre.addIatro(4918, "ΣΩΤΗΡΗΣ", "ΑΝΔΡΕΟΥ", "ΨΥΧΙΑΤΡΟΣ");
-	pre.addIatro(8775, "ΜΑΡΙΑ", "ΑΡΓΥΡΙΟΥ", "ΨΥΧΙΑΤΡΟΣ");
-	pre.addIatro(8909, "ΑΠΟΣΤΟΛΟΣ ΝΙΚΟΛΑΟΣ", "ΒΑΪΛΑΚΗΣ", "ΟΡΘΟΠΕΔΙΚΟΣ");
-	pre.addIatro(8843, "ΣΟΦΟΚΛΗΣ ΦΙΛΑΡΕΤΟΣ", "ΓΑΒΡΙΗΛΙΔΗΣ", "ΠΝΕΥΜΟΝΟΛΟΓΟΣ");
-	pre.addIatro(9089, "ΚΩΝΣΤΑΝΤΙΝΟΣ ΟΡΕΣΤΗΣ", "ΓΙΑΝΝΑΚΟΠΟΥΛΟΣ", "ΑΛΕΡΓΙΟΛΟΓΟΣ");
-	pre.addIatro(3669, "ΘΕΟΔΩΡΑ", "ΘΕΟΔΩΡΟΠΟΥΛΟΥ", "ΠΑΘΟΛΟΓΟΣ");
+	pre.addIatro(7718, "Ξ”Ξ—ΞΞΞ£ΞΞ•ΞΞ—Ξ£ Ξ¦Ξ‘Ξ™Ξ”Ξ©Ξ", "Ξ£Ξ‘Ξ΅Ξ‘ΞΞ—ΞΞΞ£", "Ξ Ξ‘ΞΞΞ›ΞΞ“ΞΞ£");
+	pre.addIatro(3644, "Ξ‘Ξ™ΞΞ‘Ξ¤Ξ•Ξ΅Ξ™ΞΞ—", "Ξ¤Ξ£Ξ•Ξ›Ξ›ΞΞ¥", "ΞΞ΅ΞΞΞ Ξ•Ξ”Ξ™ΞΞΞ£");
+	pre.addIatro(8391, "Ξ¤Ξ–Ξ‘ΞΞ—Ξ£", "Ξ¦Ξ©Ξ¤Ξ‘ΞΞ—Ξ£", "ΞΞ΅ΞΞΞ Ξ•Ξ”Ξ™ΞΞΞ£");
+	pre.addIatro(9456, "Ξ“Ξ•Ξ©Ξ΅Ξ“Ξ™ΞΞ£", "Ξ§Ξ‘Ξ–Ξ›Ξ—Ξ£", "ΞΞ•Ξ¦Ξ΅ΞΞ›ΞΞ“ΞΞ£");
+	pre.addIatro(2193, "Ξ™Ξ‘Ξ£Ξ©Ξ", "Ξ§Ξ΅Ξ¥Ξ£ΞΞΞ‘Ξ›Ξ›Ξ—Ξ£", "ΞΞ‘Ξ΅Ξ”Ξ™ΞΞ›ΞΞ“ΞΞ£");
+	pre.addIatro(3336, "ΞΞ©ΞΞ£Ξ¤Ξ‘ΞΞ¤Ξ™ΞΞΞ£", "Ξ‘ΞΞ Ξ‘Ξ¤Ξ–Ξ™Ξ”Ξ—Ξ£", "ΞΞ‘Ξ΅Ξ”Ξ™ΞΞ›ΞΞ“ΞΞ£");
+	pre.addIatro(4918, "Ξ£Ξ©Ξ¤Ξ—Ξ΅Ξ—Ξ£", "Ξ‘ΞΞ”Ξ΅Ξ•ΞΞ¥", "Ξ¨Ξ¥Ξ§Ξ™Ξ‘Ξ¤Ξ΅ΞΞ£");
+	pre.addIatro(8775, "ΞΞ‘Ξ΅Ξ™Ξ‘", "Ξ‘Ξ΅Ξ“Ξ¥Ξ΅Ξ™ΞΞ¥", "Ξ¨Ξ¥Ξ§Ξ™Ξ‘Ξ¤Ξ΅ΞΞ£");
+	pre.addIatro(8909, "Ξ‘Ξ ΞΞ£Ξ¤ΞΞ›ΞΞ£ ΞΞ™ΞΞΞ›Ξ‘ΞΞ£", "Ξ’Ξ‘ΞªΞ›Ξ‘ΞΞ—Ξ£", "ΞΞ΅ΞΞΞ Ξ•Ξ”Ξ™ΞΞΞ£");
+	pre.addIatro(8843, "Ξ£ΞΞ¦ΞΞΞ›Ξ—Ξ£ Ξ¦Ξ™Ξ›Ξ‘Ξ΅Ξ•Ξ¤ΞΞ£", "Ξ“Ξ‘Ξ’Ξ΅Ξ™Ξ—Ξ›Ξ™Ξ”Ξ—Ξ£", "Ξ ΞΞ•Ξ¥ΞΞΞΞΞ›ΞΞ“ΞΞ£");
+	pre.addIatro(9089, "ΞΞ©ΞΞ£Ξ¤Ξ‘ΞΞ¤Ξ™ΞΞΞ£ ΞΞ΅Ξ•Ξ£Ξ¤Ξ—Ξ£", "Ξ“Ξ™Ξ‘ΞΞΞ‘ΞΞΞ ΞΞ¥Ξ›ΞΞ£", "Ξ‘Ξ›Ξ•Ξ΅Ξ“Ξ™ΞΞ›ΞΞ“ΞΞ£");
+	pre.addIatro(3669, "ΞΞ•ΞΞ”Ξ©Ξ΅Ξ‘", "ΞΞ•ΞΞ”Ξ©Ξ΅ΞΞ ΞΞ¥Ξ›ΞΞ¥", "Ξ Ξ‘ΞΞΞ›ΞΞ“ΞΞ£");
 
 	pre.addFarmako(66705, "VILIMEN F.C.TAB 10MG/TAB BTx30", (float) 8.62);
 	pre.addFarmako(77646, "VILIMEN F.C.TAB 20MG/TAB BTx28", (float) 3.50);
@@ -94,7 +94,7 @@ int userOption = 0;
 StandardInputRead reader = new StandardInputRead();
 while (userOption!=8){ 
 	 printMenu();
-     String userInput = reader.readString("Τι θέλετε να κάνετε? ");
+     String userInput = reader.readString("Ξ¤ΞΉ ΞΈΞ­Ξ»ΞµΟ„Ξµ Ξ½Ξ± ΞΊΞ¬Ξ½ΞµΟ„Ξµ? ");
      if (userInput == null) {
          continue;
      } else {
@@ -106,32 +106,32 @@ while (userOption!=8){
      }
 switch(userOption) {
 	case 0:
-		System.out.println("Επιλογή " + userOption + " μη έγκυρη...");
+		System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + userOption + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
 		continue;
 	case 1:
-		String lname = reader.readString("Εισάγετε το επίθετο του ασφαλισμένου:");
+		String lname = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΞµΟ€Ξ―ΞΈΞµΟ„ΞΏ Ο„ΞΏΟ… Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…:");
 		lname = lname.toUpperCase();
-		String fname = reader.readString("Εισάγετε το όνομα του ασφαλισμένου:");
+		String fname = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…:");
 		fname = fname.toUpperCase();
-		String AMKA = reader.readString("Εισάγετε το ΑΜΚΑ του ασφαλισμένου");
+		String AMKA = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ Ξ‘ΞΞΞ‘ Ο„ΞΏΟ… Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…");
 		pre.addAsfalismeno(fname, lname, AMKA);
 		break;
 	case 2:
-		int code = reader.readPositiveInt("Εισάγετε τον κωδικό του φαρμάκου");
-		String onomaFarmakou = reader.readString("Εισάγετε το όνομα του φαρμακου:");
+		int code = reader.readPositiveInt("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏΞ½ ΞΊΟ‰Ξ΄ΞΉΞΊΟ Ο„ΞΏΟ… Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ…");
+		String onomaFarmakou = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… Ο†Ξ±ΟΞΌΞ±ΞΊΞΏΟ…:");
 		onomaFarmakou = onomaFarmakou.toUpperCase();
-		float timh = reader.readPositiveFloat("Εισάγετε την τιμή του φαρμάκου");
+		float timh = reader.readPositiveFloat("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„Ξ·Ξ½ Ο„ΞΉΞΌΞ® Ο„ΞΏΟ… Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ…");
 		pre.addFarmako(code, onomaFarmakou, timh);
 		break;
 	case 3:
-		int aade = reader.readPositiveInt("Εισάγετε τον Αριθμό Άδειας Ασκήσεως έπαγγέλματος του ιατρού;");
-		String lastName = reader.readString("Εισάγετε το επίθετο του ιατρού:");
+		int aade = reader.readPositiveInt("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏΞ½ Ξ‘ΟΞΉΞΈΞΌΟ β€™Ξ΄ΞµΞΉΞ±Ο‚ Ξ‘ΟƒΞΊΞ®ΟƒΞµΟ‰Ο‚ Ξ­Ο€Ξ±Ξ³Ξ³Ξ­Ξ»ΞΌΞ±Ο„ΞΏΟ‚ Ο„ΞΏΟ… ΞΉΞ±Ο„ΟΞΏΟ;");
+		String lastName = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΞµΟ€Ξ―ΞΈΞµΟ„ΞΏ Ο„ΞΏΟ… ΞΉΞ±Ο„ΟΞΏΟ:");
 		lastName = lastName.toUpperCase();
-		String firstName = reader.readString("Εισάγετε το όνομα του ιατρού:");
+		String firstName = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… ΞΉΞ±Ο„ΟΞΏΟ:");
 		firstName = firstName.toUpperCase();
 		int optionSpec = 0;
 		printMenuSpecialty();
-        String Spec = reader.readString("Επιλέξτε ειδικότητα ιατρού");
+        String Spec = reader.readString("Ξ•Ο€ΞΉΞ»Ξ­ΞΎΟ„Ξµ ΞµΞΉΞ΄ΞΉΞΊΟΟ„Ξ·Ο„Ξ± ΞΉΞ±Ο„ΟΞΏΟ");
         if (Spec == null) {
             continue;
         } else {
@@ -143,60 +143,60 @@ switch(userOption) {
         }
 		switch(optionSpec) {
 			case 0:
-				System.out.println("Επιλογή " + optionSpec + " μη έγκυρη...");
+				System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + optionSpec + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
 				continue;
 			case 1:
-				Spec = "ΠΑΘΟΛΟΓΟΣ";
+				Spec = "Ξ Ξ‘ΞΞΞ›ΞΞ“ΞΞ£";
 				break;
 			case 2:
-				Spec = "ΨΥΧΙΑΤΡΟΣ";
+				Spec = "Ξ¨Ξ¥Ξ§Ξ™Ξ‘Ξ¤Ξ΅ΞΞ£";
 				break;
 			case 3:
-				Spec = "ΟΡΘΟΠΕΔΙΚΟΣ";
+				Spec = "ΞΞ΅ΞΞΞ Ξ•Ξ”Ξ™ΞΞΞ£";
 				break;
 			case 4:
-				Spec = "ΑΛΕΡΓΙΟΛΟΓΟΣ";
+				Spec = "Ξ‘Ξ›Ξ•Ξ΅Ξ“Ξ™ΞΞ›ΞΞ“ΞΞ£";
 				break;
 			case 5:
-				Spec = "ΝΕΦΡΟΛΟΓΟΣ";
+				Spec = "ΞΞ•Ξ¦Ξ΅ΞΞ›ΞΞ“ΞΞ£";
 				break;
 			case 6:
-				Spec = "ΚΑΡΔΙΟΛΟΓΟΣ";
+				Spec = "ΞΞ‘Ξ΅Ξ”Ξ™ΞΞ›ΞΞ“ΞΞ£";
 				break;
 			case 7:
-				Spec = "ΠΝΕΥΜΟΝΟΛΟΓΟΣ";
+				Spec = "Ξ ΞΞ•Ξ¥ΞΞΞΞΞ›ΞΞ“ΞΞ£";
 				break;
 			default:	                    
-				 System.out.println("Επιλογή " + optionSpec + " μη έγκυρη...");
+				 System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + optionSpec + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
                 continue;
 		}
 		pre.addIatro(aade, firstName, lastName, Spec);
 		break;
 	case 4:
-		String AM = reader.readString("Εισάγετε το ΑΜΚΑ του ασφαλισμένου:");
-		String epithetoIatrou= reader.readString("Εισάγετε το επίθετο του ιατρού:");
+		String AM = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ Ξ‘ΞΞΞ‘ Ο„ΞΏΟ… Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…:");
+		String epithetoIatrou= reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΞµΟ€Ξ―ΞΈΞµΟ„ΞΏ Ο„ΞΏΟ… ΞΉΞ±Ο„ΟΞΏΟ:");
 		epithetoIatrou = epithetoIatrou.toUpperCase();
-		String onomaIatrou= reader.readString("Εισάγετε το όνομα του ιατρού:");
+		String onomaIatrou= reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… ΞΉΞ±Ο„ΟΞΏΟ:");
 		onomaIatrou = onomaIatrou.toUpperCase();
-		int numOfMeds = reader.readPositiveInt("Πόσα φάρμακα θα έχει η συνταγή; (Μέγιστος αριθμός 4)");
+		int numOfMeds = reader.readPositiveInt("Ξ ΟΟƒΞ± Ο†Ξ¬ΟΞΌΞ±ΞΊΞ± ΞΈΞ± Ξ­Ο‡ΞµΞΉ Ξ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®; (ΞΞ­Ξ³ΞΉΟƒΟ„ΞΏΟ‚ Ξ±ΟΞΉΞΈΞΌΟΟ‚ 4)");
 		if (numOfMeds > 4) {
-			System.out.println("Μέγιστος αριθμός φαρμάκων 4. Προσπαθήστε ξανά.");
+			System.out.println("ΞΞ­Ξ³ΞΉΟƒΟ„ΞΏΟ‚ Ξ±ΟΞΉΞΈΞΌΟΟ‚ Ο†Ξ±ΟΞΌΞ¬ΞΊΟ‰Ξ½ 4. Ξ ΟΞΏΟƒΟ€Ξ±ΞΈΞ®ΟƒΟ„Ξµ ΞΎΞ±Ξ½Ξ¬.");
 			break;
 		}
 		String [] onomataFarmakwn = new String[numOfMeds];
 		for(int i=0; i<numOfMeds; i++) {
 			System.out.println(i+1+"/"+numOfMeds);
-			String med = reader.readString("Εισάγετε το όνομα του "+(i+1)+"ου φαρμάκου:");
+			String med = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ ΟΞ½ΞΏΞΌΞ± Ο„ΞΏΟ… "+(i+1)+"ΞΏΟ… Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ…:");
 			onomataFarmakwn[i] = med;
 		}
-		Date execDate = reader.readDate("Εισάγετε ημερομηνία έναρξης εκτέλεσης της συνταγής με τη μορφη ΗΗ/ΜΜ/ΕΕ");
-		int daysOfExec = reader.readPositiveInt("Πόσες μέρες θα είναι εκτελέσιμη η συνταγή;");
+		Date execDate = reader.readDate("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ­Ξ½Ξ±ΟΞΎΞ·Ο‚ ΞµΞΊΟ„Ξ­Ξ»ΞµΟƒΞ·Ο‚ Ο„Ξ·Ο‚ ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚ ΞΌΞµ Ο„Ξ· ΞΌΞΏΟΟ†Ξ· Ξ—Ξ—/ΞΞ/Ξ•Ξ•");
+		int daysOfExec = reader.readPositiveInt("Ξ ΟΟƒΞµΟ‚ ΞΌΞ­ΟΞµΟ‚ ΞΈΞ± ΞµΞ―Ξ½Ξ±ΞΉ ΞµΞΊΟ„ΞµΞ»Ξ­ΟƒΞΉΞΌΞ· Ξ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®;");
 		pre.addSyntagh(AM, onomaIatrou, epithetoIatrou, onomataFarmakwn, execDate, daysOfExec);
 		break;
 	case 5:
 		int optionSearch = 0;
 		printMenuSearch();
-        String Search = reader.readString("Επιλέξτε τον αριθμό που αντιστοιχεί στα κριτήρια αναζήτησης:");
+        String Search = reader.readString("Ξ•Ο€ΞΉΞ»Ξ­ΞΎΟ„Ξµ Ο„ΞΏΞ½ Ξ±ΟΞΉΞΈΞΌΟ Ο€ΞΏΟ… Ξ±Ξ½Ο„ΞΉΟƒΟ„ΞΏΞΉΟ‡ΞµΞ― ΟƒΟ„Ξ± ΞΊΟΞΉΟ„Ξ®ΟΞΉΞ± Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·Ο‚:");
         if (Search == null) {
             continue;
         } else {
@@ -210,31 +210,31 @@ switch(userOption) {
 			case 0:
 				continue;
 			case 1:
-				String am = reader.readString("Εισάγετε το ΑΜΚΑ του ασαλισμένου:");
+				String am = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ Ξ‘ΞΞΞ‘ Ο„ΞΏΟ… Ξ±ΟƒΞ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…:");
 				pre.findAndPrintSyntaghByAsfalismeno(am);
 				break;
 			case 2:
-				int aad = reader.readPositiveInt("Εισάγετε το ΑΑΔΕ του ιατρού:");
+				int aad = reader.readPositiveInt("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ Ξ‘Ξ‘Ξ”Ξ• Ο„ΞΏΟ… ΞΉΞ±Ο„ΟΞΏΟ:");
 				pre.findAndPrintSyntaghByIatro(aad);
 				break;
 			case 3:
-				int kwd = reader.readPositiveInt("Εισάγετε τον κωδικό του φαρμάκου:");
+				int kwd = reader.readPositiveInt("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏΞ½ ΞΊΟ‰Ξ΄ΞΉΞΊΟ Ο„ΞΏΟ… Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ…:");
 				pre.findAndPrintSyntaghByFarmakoCode(kwd);
 				break;
 			case 4:
-				Date d1 = reader.readDate("Εισάγετε την ημερομηνία από την οποία θέλετε να ξεκινήσετε την αναζήτηση(ΗΗ/ΜΜ/ΕΕΕΕ)");
-				Date d2 = reader.readDate("Εισάγετε την ημερομηνία μέχρι την οποία θέλετε να κάνετε αναζήτηση(ΗΗ/ΜΜ/ΕΕΕΕ)");
+				Date d1 = reader.readDate("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„Ξ·Ξ½ Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± Ξ±Ο€Ο Ο„Ξ·Ξ½ ΞΏΟ€ΞΏΞ―Ξ± ΞΈΞ­Ξ»ΞµΟ„Ξµ Ξ½Ξ± ΞΎΞµΞΊΞΉΞ½Ξ®ΟƒΞµΟ„Ξµ Ο„Ξ·Ξ½ Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·(Ξ—Ξ—/ΞΞ/Ξ•Ξ•Ξ•Ξ•)");
+				Date d2 = reader.readDate("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„Ξ·Ξ½ Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ± ΞΌΞ­Ο‡ΟΞΉ Ο„Ξ·Ξ½ ΞΏΟ€ΞΏΞ―Ξ± ΞΈΞ­Ξ»ΞµΟ„Ξµ Ξ½Ξ± ΞΊΞ¬Ξ½ΞµΟ„Ξµ Ξ±Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ·(Ξ—Ξ—/ΞΞ/Ξ•Ξ•Ξ•Ξ•)");
 				pre.findAndPrintSyntaghBetweenDates(d1, d2);
 				break;
 			default:
-				System.out.println("Επιλογή " + optionSearch + " μη έγκυρη...");
+				System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + optionSearch + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
 				continue;
 		}
 		break;
 	case 6:
 		int optionPrint = 0;
 		printMenuPrint();
-        String print = reader.readString("Επιλέξτε τον αριθμό που αντιστοιχεί στον κατάλογο που θέλετε να εκτυπώσετε:");
+        String print = reader.readString("Ξ•Ο€ΞΉΞ»Ξ­ΞΎΟ„Ξµ Ο„ΞΏΞ½ Ξ±ΟΞΉΞΈΞΌΟ Ο€ΞΏΟ… Ξ±Ξ½Ο„ΞΉΟƒΟ„ΞΏΞΉΟ‡ΞµΞ― ΟƒΟ„ΞΏΞ½ ΞΊΞ±Ο„Ξ¬Ξ»ΞΏΞ³ΞΏ Ο€ΞΏΟ… ΞΈΞ­Ξ»ΞµΟ„Ξµ Ξ½Ξ± ΞµΞΊΟ„Ο…Ο€ΟΟƒΞµΟ„Ξµ:");
         if (print == null) {
             continue;
         } else {
@@ -246,38 +246,38 @@ switch(userOption) {
         }
 		switch(optionPrint) {
 			case 0:
-				System.out.println("Επιλογή " + optionPrint + " μη έγκυρη...");
+				System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + optionPrint + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
 				continue;
 			case 1:
-				System.out.println("Τα στοιχεία των ασφαλισμένων είναι τα εξής:");
+				System.out.println("Ξ¤Ξ± ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ξ± Ο„Ο‰Ξ½ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½Ο‰Ξ½ ΞµΞ―Ξ½Ξ±ΞΉ Ο„Ξ± ΞµΞΎΞ®Ο‚:");
 				pre.printAsfalismenous();
 				break;
 			case 2:
-				System.out.println("Τα στοιχεία των ιατρών είναι τα εξής:");
+				System.out.println("Ξ¤Ξ± ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ξ± Ο„Ο‰Ξ½ ΞΉΞ±Ο„ΟΟΞ½ ΞµΞ―Ξ½Ξ±ΞΉ Ο„Ξ± ΞµΞΎΞ®Ο‚:");
 				pre.printIatrous();
 				break;
 			case 3:
-				System.out.println("Τα στοιχεία των φαρμάκων είναι τα εξής:");
+				System.out.println("Ξ¤Ξ± ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ξ± Ο„Ο‰Ξ½ Ο†Ξ±ΟΞΌΞ¬ΞΊΟ‰Ξ½ ΞµΞ―Ξ½Ξ±ΞΉ Ο„Ξ± ΞµΞΎΞ®Ο‚:");
 				pre.printFarmaka();
 				break;
 			case 4:
-				System.out.println("Τα στοιχεία των συνταγών είναι τα εξής:");
+				System.out.println("Ξ¤Ξ± ΟƒΟ„ΞΏΞΉΟ‡ΞµΞ―Ξ± Ο„Ο‰Ξ½ ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½ ΞµΞ―Ξ½Ξ±ΞΉ Ο„Ξ± ΞµΞΎΞ®Ο‚:");
 				pre.printSyntages();
 				break;
 			default:
-				System.out.println("Επιλογή " + optionPrint + " μη έγκυρη...");
+				System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + optionPrint + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
 				continue;
 		}
 		break;
 	case 7:
-		String amkaForDelete = reader.readString("Εισάγετε το ΑΜΚΑ του ασφαλισμένου προς διαγραφη:");
+		String amkaForDelete = reader.readString("Ξ•ΞΉΟƒΞ¬Ξ³ΞµΟ„Ξµ Ο„ΞΏ Ξ‘ΞΞΞ‘ Ο„ΞΏΟ… Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ… Ο€ΟΞΏΟ‚ Ξ΄ΞΉΞ±Ξ³ΟΞ±Ο†Ξ·:");
 		pre.deleteAsfalismeno(amkaForDelete);
 		break;
 	case 8:
-		System.out.println("Ευχάριστούμε που χρησιμοποιείτε το σύστημά μας!");
+		System.out.println("Ξ•Ο…Ο‡Ξ¬ΟΞΉΟƒΟ„ΞΏΟΞΌΞµ Ο€ΞΏΟ… Ο‡ΟΞ·ΟƒΞΉΞΌΞΏΟ€ΞΏΞΉΞµΞ―Ο„Ξµ Ο„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ¬ ΞΌΞ±Ο‚!");
 		break;
 	default:
-        System.out.println("Επιλογή " + userOption + " μη έγκυρη...");
+        System.out.println("Ξ•Ο€ΞΉΞ»ΞΏΞ³Ξ® " + userOption + " ΞΌΞ· Ξ­Ξ³ΞΊΟ…ΟΞ·...");
 		continue;	
 	}
 }
@@ -286,44 +286,44 @@ switch(userOption) {
 }
 
 	public static void printMenu() {
-        System.out.println("                 Καλωσόρισες στο σύστημα");
+        System.out.println("                 ΞΞ±Ξ»Ο‰ΟƒΟΟΞΉΟƒΞµΟ‚ ΟƒΟ„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ±");
         System.out.println("===========================================================");
-        System.out.println("1. Εισαγωγή ασφαλισμένου...................................");
-        System.out.println("2. Εισαγωγή φαρμάκου ......................................");
-        System.out.println("3. Εισαγωγή ιατρού.........................................");
-        System.out.println("4. Εισαγωγή συνταγής.......................................");
-        System.out.println("5. Αναζήτηση συνταγών......................................");    
-        System.out.println("6. Εκτύπωση καταλόγου βάσης δεδομένων......................");    
-        System.out.println("7. Διαγραφή ασφαλισμένου...................................");   
-        System.out.println("8. Έξοδος.................................................."); 
+        System.out.println("1. Ξ•ΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…...................................");
+        System.out.println("2. Ξ•ΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ… ......................................");
+        System.out.println("3. Ξ•ΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® ΞΉΞ±Ο„ΟΞΏΟ.........................................");
+        System.out.println("4. Ξ•ΞΉΟƒΞ±Ξ³Ο‰Ξ³Ξ® ΟƒΟ…Ξ½Ο„Ξ±Ξ³Ξ®Ο‚.......................................");
+        System.out.println("5. Ξ‘Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½......................................");    
+        System.out.println("6. Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞ· ΞΊΞ±Ο„Ξ±Ξ»ΟΞ³ΞΏΟ… Ξ²Ξ¬ΟƒΞ·Ο‚ Ξ΄ΞµΞ΄ΞΏΞΌΞ­Ξ½Ο‰Ξ½......................");    
+        System.out.println("7. Ξ”ΞΉΞ±Ξ³ΟΞ±Ο†Ξ® Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ…...................................");   
+        System.out.println("8. ΞΞΎΞΏΞ΄ΞΏΟ‚.................................................."); 
         System.out.println("===========================================================");
     }
 	public static void printMenuSpecialty() {
         System.out.println("===========================================================");
-        System.out.println("1. Παθολόγος...............................................");
-        System.out.println("2. Ψυχίατρος ..............................................");
-        System.out.println("3. Ορθοπεδικός.............................................");
-        System.out.println("4. Αλεργιολόγος............................................");
-        System.out.println("5. Νεφρολόγος..............................................");   
-        System.out.println("6. Καρδιολόγος.............................................");
-        System.out.println("7. Πνευμονολόγος..........................................."); 
+        System.out.println("1. Ξ Ξ±ΞΈΞΏΞ»ΟΞ³ΞΏΟ‚...............................................");
+        System.out.println("2. Ξ¨Ο…Ο‡Ξ―Ξ±Ο„ΟΞΏΟ‚ ..............................................");
+        System.out.println("3. ΞΟΞΈΞΏΟ€ΞµΞ΄ΞΉΞΊΟΟ‚.............................................");
+        System.out.println("4. Ξ‘Ξ»ΞµΟΞ³ΞΉΞΏΞ»ΟΞ³ΞΏΟ‚............................................");
+        System.out.println("5. ΞΞµΟ†ΟΞΏΞ»ΟΞ³ΞΏΟ‚..............................................");   
+        System.out.println("6. ΞΞ±ΟΞ΄ΞΉΞΏΞ»ΟΞ³ΞΏΟ‚.............................................");
+        System.out.println("7. Ξ Ξ½ΞµΟ…ΞΌΞΏΞ½ΞΏΞ»ΟΞ³ΞΏΟ‚..........................................."); 
         System.out.println("===========================================================");
 
 	}
 	public static void printMenuSearch() {
         System.out.println("===========================================================");
-        System.out.println("1. Αναζήτηση συνταγών ασφαλισμένου.........................");
-        System.out.println("2. Αναζήτηση συνταγών ιατρού ..............................");
-        System.out.println("3. Αναζήτηση συνταγών βάση φαρμάκου........................");
-        System.out.println("4. Αναζήτηση συνταγών βάση ημερομηνίας.....................");
+        System.out.println("1. Ξ‘Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½ΞΏΟ….........................");
+        System.out.println("2. Ξ‘Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½ ΞΉΞ±Ο„ΟΞΏΟ ..............................");
+        System.out.println("3. Ξ‘Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½ Ξ²Ξ¬ΟƒΞ· Ο†Ξ±ΟΞΌΞ¬ΞΊΞΏΟ…........................");
+        System.out.println("4. Ξ‘Ξ½Ξ±Ξ¶Ξ®Ο„Ξ·ΟƒΞ· ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½ Ξ²Ξ¬ΟƒΞ· Ξ·ΞΌΞµΟΞΏΞΌΞ·Ξ½Ξ―Ξ±Ο‚.....................");
         System.out.println("===========================================================");
 	}
 	public static void printMenuPrint() {
         System.out.println("===========================================================");
-        System.out.println("1. Εκτύπωση καταχωρημένων ασφαλισμένων.....................");   
-        System.out.println("2. Εκτύπωση καταχωρημένων ιατρών...........................");   
-        System.out.println("3. Εκτύπωση καταχωρημένων φαρμάκων.........................");   
-        System.out.println("4. Εκτύπωση καταχωρημένων συνταγών.........................");   
+        System.out.println("1. Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½Ο‰Ξ½ Ξ±ΟƒΟ†Ξ±Ξ»ΞΉΟƒΞΌΞ­Ξ½Ο‰Ξ½.....................");   
+        System.out.println("2. Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½Ο‰Ξ½ ΞΉΞ±Ο„ΟΟΞ½...........................");   
+        System.out.println("3. Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½Ο‰Ξ½ Ο†Ξ±ΟΞΌΞ¬ΞΊΟ‰Ξ½.........................");   
+        System.out.println("4. Ξ•ΞΊΟ„ΟΟ€Ο‰ΟƒΞ· ΞΊΞ±Ο„Ξ±Ο‡Ο‰ΟΞ·ΞΌΞ­Ξ½Ο‰Ξ½ ΟƒΟ…Ξ½Ο„Ξ±Ξ³ΟΞ½.........................");   
         System.out.println("===========================================================");
 	}
 }
